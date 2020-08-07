@@ -11,7 +11,7 @@ Sensitive feature is Education Degree. We have binarized the original value (1:g
 
 creditcarddefault.csv is the data set; each row is an individual; the 24th column is label; the 3th column is sensitive feature.
 
-creditdefault_index.csv contains 50 random shuffles of individual indicies; each row is a random shuffle.
+creditdefault_index.csv contains 50 random shuffles of individual indicies; each row is a random shuffle. 
 
  [Data Source](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients)
 
