@@ -42,3 +42,7 @@ compas.csv is the data set; each row is a defendant; the 16th column is label; t
 compas_index.csv contains 50 random shuffles of defendant indicies.
 
 [Data Source](https://www.kaggle.com/danofer/compass)
+
+#### Graph Data Sets
+
+Updating.....
