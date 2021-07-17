@@ -48,7 +48,18 @@ compas_index.csv contains 50 random shuffles of defendant indicies.
 ##### Cora Dataset
 
 The Cora dataset consists of 2708 scientific publications classified into one of seven classes. The citation network consists of 5429 links. Each publication in the dataset is
-
 described by a 0/1-valued word vector indicating the absence/presence of the corresponding word from the dictionary. The dictionary consists of 1433 unique words.
+
+[Data Source](https://linqs.soe.ucsc.edu/data)
+
+##### CiteSeer Dataset
+
+The CiteSeer dataset consists of 3312 scientific publications classified into one of six classes. The citation network consists of 4732 links. Each publication in the dataset is described by a 0/1-valued word vector indicating the absence/presence of the corresponding word from the dictionary. The dictionary consists of 3703 unique words.
+
+[Data Source](https://linqs.soe.ucsc.edu/data)
+
+##### PubMed Dataset
+
+The Pubmed Diabetes dataset consists of 19717 scientific publications from PubMed database pertaining to diabetes classified into one of three classes. The citation network consists of 44338 links. Each publication in the dataset is described by a TF/IDF weighted word vector from a dictionary which consists of 500 unique words. 
 
 [Data Source](https://linqs.soe.ucsc.edu/data)
