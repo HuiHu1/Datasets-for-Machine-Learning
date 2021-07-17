@@ -1,7 +1,7 @@
 
-### Datasets-for-Fair-Machine-Learning-Research
+#### Datasets-for-Fair-Machine-Learning-Research
 
-### Credit Card Default Data Set
+#### Credit Card Default Data Set
 
 This data set contains 20,000 individuals described by 23 attributes (e.g., gender, age). We have removed individuals with missing attributes and reduced sample size to 20,000 from 30,000.
 
@@ -15,7 +15,7 @@ creditdefault_index.csv contains 50 random shuffles of individual indicies; each
 
  [Data Source](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients)
 
-### Communities and Crime Data Set
+#### Communities and Crime Data Set
 
 This data set contains 1,993 communities described by 101 attributes (e.g., population, household size).
 
@@ -29,7 +29,7 @@ crimecommunity_index.csv contains 50 random shuffles of community indicies.
 
 [Data Source](http://archive.ics.uci.edu/ml/datasets/communities+and+crime)
 
-### COMPAS Data Set
+#### COMPAS Data Set
 
 This data set contains 16,000 defendents described by 16 attributes (e.g., sex, ethnic).
 
