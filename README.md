@@ -1,17 +1,16 @@
-
-#### Datasets-for-Machine-Learning 
+#### Datasets-for-Machine-Learning
 
 ##### Credit Card Default Data Set
 
-This data set contains 20,000 individuals described by 23 attributes (e.g., gender, age). We have removed individuals with missing attributes and reduced sample size to 20,000 from 30,000.
+This data set contains 20,000 individuals described by 23 attributes (e.g., gender, age). We have removed individuals with missing attributes and reduced the sample size to 20,000 from 30,000.
 
-Label is Default Payment (1:yes; 0:no).
+The true label is Default Payment (1:yes; 0:no).
 
-Sensitive feature is Education Degree. We have binarized the original value (1:graduate school; 2:university; 3:high school; 4:others) into (1:lower education) if it is <=3 and (0:higher education) otherwise (as done in [paper](http://papers.nips.cc/paper/8294-the-price-of-fair-pca-one-extra-dimension.pdf))
+The sensitive feature is Education Degree. We have binarized the original value (1:graduate school; 2:university; 3:high school; 4:others) into (1:lower education) if it is <=3 and (0:higher education) otherwise (as done in [paper](http://papers.nips.cc/paper/8294-the-price-of-fair-pca-one-extra-dimension.pdf))
 
-creditcarddefault.csv is the data set; each row is an individual; the 24th column is label; the 3th column is sensitive feature.
+creditcarddefault.csv is the data set; each row is an individual; the 24th column is the true label; the 3rd column is the sensitive feature.
 
-creditdefault_index.csv contains 50 random shuffles of individual indicies; each row is a random shuffle. 
+creditdefault_index.csv contains 50 random shuffles of individual indices; each row is a random shuffle.
 
  [Data Source](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients)
 
@@ -21,25 +20,25 @@ This data set contains 1,993 communities described by 101 attributes (e.g., popu
 
 Label is Crime Rate (1:high; 0:low).
 
-Sensitive feature is Percentage of African American Residents. We have binarized the original value into (1:high) if it is >=50% and (0:low) otherwise.
+The sensitive feature is the Percentage of African American Residents. We have binarized the original value into (1:high) if it is >=50% and (0:low) otherwise.
 
-crimecommunity.csv is the data set; each row is a community; the 101th column is label; the 1th column is sensitive feature.
+crimecommunity.csv is the data set; each row is a community; the 101st column is the true label; the 1st column is the sensitive feature.
 
-crimecommunity_index.csv contains 50 random shuffles of community indicies.
+crimecommunity_index.csv contains 50 random shuffles of community indices.
 
 [Data Source](http://archive.ics.uci.edu/ml/datasets/communities+and+crime)
 
 ##### COMPAS Data Set
 
-This data set contains 16,000 defendents described by 16 attributes (e.g., sex, ethnic).
+This data set contains 16,000 defendants described by 16 attributes (e.g., sex, ethnicity).
 
-Label is Risk of Recidivism (1:high; 0:low).
+The label is Risk of Recidivism (1:high; 0:low).
 
 Sensitive feature is Race (1:black; 0:white).
 
-compas.csv is the data set; each row is a defendant; the 16th column is label; the 15th column is sensitive feature.
+compas.csv is the data set; each row is a defendant; the 16th column is the true label; the 15th column is the sensitive feature.
 
-compas_index.csv contains 50 random shuffles of defendant indicies.
+compas_index.csv contains 50 random shuffles of defendant indices.
 
 [Data Source](https://www.kaggle.com/danofer/compass)
 
@@ -60,6 +59,29 @@ The CiteSeer dataset consists of 3312 scientific publications classified into on
 
 ##### PubMed Dataset
 
-The Pubmed Diabetes dataset consists of 19717 scientific publications from PubMed database pertaining to diabetes classified into one of three classes. The citation network consists of 44338 links. Each publication in the dataset is described by a TF/IDF weighted word vector from a dictionary which consists of 500 unique words. 
+The Pubmed Diabetes dataset consists of 19717 scientific publications from the PubMed database pertaining to diabetes classified into one of three classes. The citation network consists of 44338 links. Each publication in the dataset is described by a TF/IDF weighted word vector from a dictionary which consists of 500 unique words.
 
 [Data Source](https://linqs.soe.ucsc.edu/data)
+
+##### Pokec-z & Pokec-n Datasets
+
+The Pokec-z dataset consists of 67,796 users and each user is described by 275 attributes. The Pokec-n dataset includes 66,569 users and each user is associated with 264 attributes. Region is treated as the sensitive attribute, and users’ working field is the target label.
+
+[Data Source](https://github.com/HuiHu1/Privacy-Preserving-Graph-Convolutional-Network/tree/main/datasets)
+
+##### German Credit Dataset
+
+The German credit dataset contains 1,000 users and each user is described by 27 attributes. The sensitive attribute in this dataset is users’ gender, and the target label is good or bad credit risks.
+
+[Data Source](https://github.com/HuiHu1/Privacy-Preserving-Graph-Convolutional-Network/tree/main/datasets)
+
+##### Recidivism Dataset
+
+The Recidivism dataset contains 18,876 defendants who got released on bail at the U.S. state courts during 1990-2009. Each defendant is associated with 18 attributes. Race is treated as the sensitive attribute, and the target label is whether the defendant is likely to commit a violent crime or not.
+
+[Data Source](https://github.com/HuiHu1/Privacy-Preserving-Graph-Convolutional-Network/tree/main/datasets)
+
+##### Credit Defaulter Dataset
+The Credit Defaulter dataset includes 30,000 individuals connected based on the similarity of their spending and payment patterns. Age is treated as the sensitive attribute, and the target label is whether an individual will default on the credit card payment or not.
+
+[Data Source](https://github.com/HuiHu1/Privacy-Preserving-Graph-Convolutional-Network/tree/main/datasets)
