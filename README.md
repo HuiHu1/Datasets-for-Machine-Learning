@@ -1,4 +1,4 @@
-#### Datasets-for-Machine-Learning
+This repository aims to collect datasets for trustworthy machine learning.
 
 ##### Credit Card Default Data Set
 
