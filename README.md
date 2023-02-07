@@ -42,60 +42,60 @@ compas_index.csv contains 50 random shuffles of defendant indices.
 
 [Data Source](https://www.kaggle.com/danofer/compass)
 
-### Graph Datasets
+### Graph Data Sets
 
-##### 4. Cora Dataset
+##### 4. Cora Data Set
 
-The Cora dataset consists of 2,708 scientific publications classified into one of seven classes. The citation network consists of 5,429 links. Each publication in the dataset is
+The Cora data set consists of 2,708 scientific publications classified into one of seven classes. The citation network consists of 5,429 links. Each publication in the dataset is
 described by a 0/1-valued word vector indicating the absence/presence of the corresponding word from the dictionary. The dictionary consists of 1,433 unique words.
 
 [Data Source](https://www.kaggle.com/datasets/mrkmakr/cora-dataset)
 
-##### 5. CiteSeer Dataset
+##### 5. CiteSeer Data Set
 
-The CiteSeer dataset consists of 3,312 scientific publications classified into one of six classes. The citation network consists of 4,732 links. Each publication in the dataset is described by a 0/1-valued word vector indicating the absence/presence of the corresponding word from the dictionary. The dictionary consists of 3,703 unique words.
+The CiteSeer data set consists of 3,312 scientific publications classified into one of six classes. The citation network consists of 4,732 links. Each publication in the dataset is described by a 0/1-valued word vector indicating the absence/presence of the corresponding word from the dictionary. The dictionary consists of 3,703 unique words.
 
 [Data Source](https://www.kaggle.com/datasets/shichenyang/citeseer)
 
-##### 6. PubMed Dataset
+##### 6. PubMed Data Set
 
-The Pubmed Diabetes dataset consists of 19,717 scientific publications from the PubMed database pertaining to diabetes classified into one of three classes. The citation network consists of 44,338 links. Each publication in the dataset is described by a TF/IDF weighted word vector from a dictionary which consists of 500 unique words.
+The Pubmed Diabetes data set consists of 19,717 scientific publications from the PubMed database pertaining to diabetes classified into one of three classes. The citation network consists of 44,338 links. Each publication in the dataset is described by a TF/IDF weighted word vector from a dictionary which consists of 500 unique words.
 
 [Data Source](https://relational.fit.cvut.cz/dataset/PubMed_Diabetes)
 
-##### 7. Pokec-z & Pokec-n Datasets
+##### 7. Pokec-z & Pokec-n Data Sets
 
-The Pokec-z dataset consists of 67,796 users and each user is described by 275 attributes. The Pokec-n dataset includes 66,569 users and each user is associated with 264 attributes. Region is treated as the sensitive attribute, and users’ working field is the target label.
-
-[Data Source](https://github.com/HuiHu1/Privacy-Preserving-Graph-Convolutional-Network/tree/main/datasets)
-
-##### 8. German Credit Dataset
-
-The German credit dataset contains 1,000 users and each user is described by 27 attributes. The sensitive attribute in this dataset is users’ gender, and the target label is good or bad credit risks.
+The Pokec-z data set consists of 67,796 users and each user is described by 275 attributes. The Pokec-n dataset includes 66,569 users and each user is associated with 264 attributes. Region is treated as the sensitive attribute, and users’ working field is the target label.
 
 [Data Source](https://github.com/HuiHu1/Privacy-Preserving-Graph-Convolutional-Network/tree/main/datasets)
 
-##### 9. Recidivism Dataset
+##### 8. German Credit Data Set
 
-The Recidivism dataset contains 18,876 defendants who got released on bail at the U.S. state courts during 1990-2009. Each defendant is associated with 18 attributes. Race is treated as the sensitive attribute, and the target label is whether the defendant is likely to commit a violent crime or not.
-
-[Data Source](https://github.com/HuiHu1/Privacy-Preserving-Graph-Convolutional-Network/tree/main/datasets)
-
-##### 10. Credit Defaulter Dataset
-The Credit Defaulter dataset includes 30,000 individuals connected based on the similarity of their spending and payment patterns. Age is treated as the sensitive attribute, and the target label is whether an individual will default on the credit card payment or not.
+The German credit data set contains 1,000 users and each user is described by 27 attributes. The sensitive attribute in this dataset is users’ gender, and the target label is good or bad credit risks.
 
 [Data Source](https://github.com/HuiHu1/Privacy-Preserving-Graph-Convolutional-Network/tree/main/datasets)
 
+##### 9. Recidivism Data Set
 
-##### 11. Rochester38 Dataset
+The Recidivism data set contains 18,876 defendants who got released on bail at the U.S. state courts during 1990-2009. Each defendant is associated with 18 attributes. Race is treated as the sensitive attribute, and the target label is whether the defendant is likely to commit a violent crime or not.
 
-The Rochester38 dataset includes 4,563 users, users' gender is considered the sensitive attribute, and the utility label is the class year, i.e., the year when students enroll in school. The edges among users denote their friendship relationships.
+[Data Source](https://github.com/HuiHu1/Privacy-Preserving-Graph-Convolutional-Network/tree/main/datasets)
+
+##### 10. Credit Defaulter Data Set
+The Credit Defaulter data set includes 30,000 individuals connected based on the similarity of their spending and payment patterns. Age is treated as the sensitive attribute, and the target label is whether an individual will default on the credit card payment or not.
+
+[Data Source](https://github.com/HuiHu1/Privacy-Preserving-Graph-Convolutional-Network/tree/main/datasets)
+
+
+##### 11. Rochester38 Data Set
+
+The Rochester38 data set includes 4,563 users, users' gender is considered the sensitive attribute, and the utility label is the class year, i.e., the year when students enroll in school. The edges among users denote their friendship relationships.
 
 [Data Source](https://networkrepository.com/socfb-Rochester38.php)
 
 
-##### 12. Yale4 Dataset
+##### 12. Yale4 Data Set
 
-The Yale4 dataset contains 8,578 users. We treat the class year as the sensitive attribute, and the students' status flag is the utility label. The edges among users denote their friendship relationships.
+The Yale4 data set contains 8,578 users. We treat the class year as the sensitive attribute, and the students' status flag is the utility label. The edges among users denote their friendship relationships.
 
 [Data Source](https://networkrepository.com/socfb-Yale4.php)
