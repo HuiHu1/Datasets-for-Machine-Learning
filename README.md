@@ -85,3 +85,17 @@ The Recidivism dataset contains 18,876 defendants who got released on bail at th
 The Credit Defaulter dataset includes 30,000 individuals connected based on the similarity of their spending and payment patterns. Age is treated as the sensitive attribute, and the target label is whether an individual will default on the credit card payment or not.
 
 [Data Source](https://github.com/HuiHu1/Privacy-Preserving-Graph-Convolutional-Network/tree/main/datasets)
+
+
+##### Rochester38 Dataset
+
+The Rochester38 dataset includes 4,563 users, users' gender is considered the sensitive attribute, and the utility label is the class year, i.e., the year when students enroll in school. The edges among users denote their friendship relationships.
+
+[Data Source](https://networkrepository.com/socfb-Rochester38.php)
+
+
+##### Yale4 Dataset
+
+The Yale4 dataset contains 8,578 users. We treat the class year as the sensitive attribute, and the students' status flag is the utility label. The edges among users denote their friendship relationships.
+
+[Data Source](https://networkrepository.com/socfb-Yale4.php)
