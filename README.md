@@ -42,7 +42,7 @@ compas_index.csv contains 50 random shuffles of defendant indices.
 
 [Data Source](https://www.kaggle.com/danofer/compass)
 
-### Graph Data Sets
+### Graph Datasets
 
 ##### 4. Cora Dataset
 
